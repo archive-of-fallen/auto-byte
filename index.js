@@ -6,7 +6,7 @@ client.on('ready', () => {
   client.user.setGame(`Banning users... 🔨`);
 });
 
-let prefix = "?";
+let prefix = "-";
 
 let adLinks = ["discord.gg/", "discord.li/", "discord.io/", "discord.me/", "disco.gg/"]
 
