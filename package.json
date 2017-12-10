@@ -1,0 +1,28 @@
+{
+  "name": "autobyte",
+  "version": "0.0.0",
+  "description": "A private modbot for Byte's support guild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xFallenLight/auto-byte.git"
+  },
+  "keywords": [
+    "bot",
+    "auto-byte",
+    "discordapi",
+    "discordjs"
+  ],
+  "author": "FallenLight#5149",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xFallenLight/auto-byte/issues"
+  },
+  "homepage": "https://github.com/xFallenLight/auto-byte#readme",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
