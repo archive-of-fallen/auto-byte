@@ -107,7 +107,7 @@ client.on('message', msg => {
 	}
     
     if (msg.content.startsWith(prefix + 'help')) {
-    	msg.channel.send(`Hello. I'm the main moderation bot for **Catbot's Guild**.`)
+    	msg.channel.send(`Hello. I'm the main moderation bot for **Byte**.`)
     	const embed = new Discord.RichEmbed()
     	.addField(`General`, `\`${prefix}ping\``)
     	.addField(`Moderation`, `\`${prefix}ban [user] <reason>\`\n\`${prefix}kick [user] <reason>\`\n\`${prefix}mute [user] <reason>\`\n\`${prefix}unmute [user] <reason>\`\n\`${prefix}warn [user] <reason>\``)
