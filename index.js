@@ -242,7 +242,7 @@ client.on('message', msg => {
 		})
 	}
 	
-    if (adLinks.some(word => msg.content.includes(word) && !msg.member.roles.some(r => ["Byte", "(other) Bots"].includes(r.name)))) {
+    if (adLinks.some(word => msg.content.includes(word) && !msg.member.roles.some(r => ["Byte", "(other) Bots", "Developer"].includes(r.name)))) {
     	let logChannel = msg.guild.channels.find("name", "mod-log")
     	msg.delete()
     	msg.reply(`Please do not advertise on this server.`)
